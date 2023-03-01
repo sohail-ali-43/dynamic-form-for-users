@@ -1,0 +1,61 @@
+.main{
+    background-color: rgb(38, 48, 48);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.addBtn{
+    background-color: crimson;
+    color: white;
+    margin: 20px;
+    width: 25%;
+    border: none;
+    outline: none;
+    height: 40px;
+    
+}
+.addBtn:hover{
+    background-color: rgb(141, 7, 34);
+}
+.inputLabel{
+    margin-top: 90px;
+    background-color: crimson;
+    width: 25%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.previewBtn{
+    background-color: crimson;
+    color: white;
+    margin: 20px;
+    width: 25%;
+    border: none;
+    outline: none;
+    height: 40px;
+    
+}
+
+.previewBtn:hover{
+    background-color: rgb(141, 7, 34);
+}
+.typeChange{
+    background-color: crimson;
+    color: white;
+    margin: 20px;
+    width: 25%;
+    border: none;
+    outline: none;
+    height: 40px;
+    text-align: center;
+      
+}

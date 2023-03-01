@@ -7,6 +7,7 @@
 
  */
 import React, { useState } from 'react'
+import './App.css';
 
 const App = () => {
 
@@ -36,16 +37,16 @@ const App = () => {
     
   
   return (
-    <div>
-      <button onClick={addInput}>Addinput</button>
-      <select onChange={handleTypeChange}>
+    <div className='main'>
+      <button className='addBtn' onClick={addInput}>Addinput</button>
+      <select className='typeChange' onChange={handleTypeChange}>
       <option value = 'text'>Text</option>
       <option value = 'password'>Password</option>
       <option value = 'email'>Email</option>
       <option value = 'textarea'>Textarea</option>
       </select>
 
-      <input type = 'text' onChange={handleLabelChange} placeholder = "Label" />
+      <input className='inputLabel' type = 'text' onChange={handleLabelChange} placeholder = "Label" />
 
       {
         showPreview ?(
@@ -62,7 +63,7 @@ const App = () => {
             ))}
           </div>
         ):(
-          <button onClick={handlePreviewClick}>
+          <button className='previewBtn' onClick={handlePreviewClick}>
             preview
           </button>
         )
